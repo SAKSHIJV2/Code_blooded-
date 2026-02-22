@@ -1,0 +1,1 @@
+import sys\ndata = sys.stdin.read().strip().split()\nprint(data)

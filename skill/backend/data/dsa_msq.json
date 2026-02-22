@@ -1,0 +1,539 @@
+[
+  {
+    "id": "DSA-MSQ-001",
+    "track": "DSA",
+    "topic": "Arrays",
+    "subtopic": "Properties",
+    "difficulty": "Easy",
+    "question_type": "MSQ",
+    "question": "Which of the following statements about arrays are true?",
+    "options": [
+      "Arrays store elements in contiguous memory",
+      "Array size can grow dynamically by default",
+      "Index-based access is fast",
+      "Insertion at beginning is O(1)"
+    ],
+    "correct_answer": [
+      "Arrays store elements in contiguous memory",
+      "Index-based access is fast"
+    ],
+    "expected_keywords": ["contiguous", "index"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Array Fundamentals"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-002",
+    "track": "DSA",
+    "topic": "Searching",
+    "subtopic": "Binary Search",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which conditions must be satisfied for binary search?",
+    "options": [
+      "Data must be sorted",
+      "Random access must be possible",
+      "All elements must be unique",
+      "Data must be small"
+    ],
+    "correct_answer": [
+      "Data must be sorted",
+      "Random access must be possible"
+    ],
+    "expected_keywords": ["sorted", "random access"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Searching"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-003",
+    "track": "DSA",
+    "topic": "Sorting",
+    "subtopic": "General",
+    "difficulty": "Easy",
+    "question_type": "MSQ",
+    "question": "Which of the following are comparison-based sorting algorithms?",
+    "options": [
+      "Bubble Sort",
+      "Merge Sort",
+      "Counting Sort",
+      "Quick Sort"
+    ],
+    "correct_answer": [
+      "Bubble Sort",
+      "Merge Sort",
+      "Quick Sort"
+    ],
+    "expected_keywords": ["comparison"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Sorting"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-004",
+    "track": "DSA",
+    "topic": "Recursion",
+    "subtopic": "Basics",
+    "difficulty": "Easy",
+    "question_type": "MSQ",
+    "question": "Which issues can occur due to improper recursion?",
+    "options": [
+      "Stack overflow",
+      "Infinite recursion",
+      "Memory leak",
+      "Faster execution"
+    ],
+    "correct_answer": [
+      "Stack overflow",
+      "Infinite recursion"
+    ],
+    "expected_keywords": ["stack", "base condition"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Recursion"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-005",
+    "track": "DSA",
+    "topic": "Stack",
+    "subtopic": "Applications",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which problems can be solved efficiently using stacks?",
+    "options": [
+      "Expression evaluation",
+      "Undo/Redo operations",
+      "Binary search",
+      "Function calls"
+    ],
+    "correct_answer": [
+      "Expression evaluation",
+      "Undo/Redo operations",
+      "Function calls"
+    ],
+    "expected_keywords": ["LIFO", "stack usage"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Stack"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-006",
+    "track": "DSA",
+    "topic": "Queue",
+    "subtopic": "Applications",
+    "difficulty": "Easy",
+    "question_type": "MSQ",
+    "question": "Where are queues commonly used?",
+    "options": [
+      "CPU scheduling",
+      "Breadth-first search",
+      "Function recursion",
+      "Printer scheduling"
+    ],
+    "correct_answer": [
+      "CPU scheduling",
+      "Breadth-first search",
+      "Printer scheduling"
+    ],
+    "expected_keywords": ["FIFO"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Queue"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-007",
+    "track": "DSA",
+    "topic": "Linked List",
+    "subtopic": "Advantages",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which are advantages of linked lists over arrays?",
+    "options": [
+      "Dynamic size",
+      "Fast random access",
+      "Efficient insertion/deletion",
+      "Better cache locality"
+    ],
+    "correct_answer": [
+      "Dynamic size",
+      "Efficient insertion/deletion"
+    ],
+    "expected_keywords": ["dynamic", "insertion"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Linked List"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-008",
+    "track": "DSA",
+    "topic": "Trees",
+    "subtopic": "Binary Tree",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which properties are true for binary trees?",
+    "options": [
+      "Each node has at most two children",
+      "Can be empty",
+      "Always balanced",
+      "Hierarchical structure"
+    ],
+    "correct_answer": [
+      "Each node has at most two children",
+      "Can be empty",
+      "Hierarchical structure"
+    ],
+    "expected_keywords": ["binary tree"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Trees"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-009",
+    "track": "DSA",
+    "topic": "Trees",
+    "subtopic": "Traversal",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which traversals use recursion naturally?",
+    "options": [
+      "Inorder",
+      "Preorder",
+      "Postorder",
+      "Level order"
+    ],
+    "correct_answer": [
+      "Inorder",
+      "Preorder",
+      "Postorder"
+    ],
+    "expected_keywords": ["recursion"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Tree Traversal"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-010",
+    "track": "DSA",
+    "topic": "Graphs",
+    "subtopic": "Traversal",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which statements about BFS are true?",
+    "options": [
+      "Uses a queue",
+      "Finds shortest path in unweighted graph",
+      "Uses recursion",
+      "Explores level by level"
+    ],
+    "correct_answer": [
+      "Uses a queue",
+      "Finds shortest path in unweighted graph",
+      "Explores level by level"
+    ],
+    "expected_keywords": ["BFS"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Graphs"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+
+  {
+    "id": "DSA-MSQ-011",
+    "track": "DSA",
+    "topic": "Graphs",
+    "subtopic": "DFS",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which are true about DFS?",
+    "options": [
+      "Uses stack or recursion",
+      "Finds shortest path always",
+      "Can detect cycles",
+      "Explores depth first"
+    ],
+    "correct_answer": [
+      "Uses stack or recursion",
+      "Can detect cycles",
+      "Explores depth first"
+    ],
+    "expected_keywords": ["DFS"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Graphs"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-012",
+    "track": "DSA",
+    "topic": "Hashing",
+    "subtopic": "Concepts",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which factors affect hashing performance?",
+    "options": [
+      "Load factor",
+      "Hash function quality",
+      "Table size",
+      "Sorting order"
+    ],
+    "correct_answer": [
+      "Load factor",
+      "Hash function quality",
+      "Table size"
+    ],
+    "expected_keywords": ["hash", "load factor"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Hashing"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-013",
+    "track": "DSA",
+    "topic": "Complexity",
+    "subtopic": "Big-O",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which statements about Big-O notation are correct?",
+    "options": [
+      "Represents upper bound",
+      "Ignores constants",
+      "Depends on hardware",
+      "Focuses on growth rate"
+    ],
+    "correct_answer": [
+      "Represents upper bound",
+      "Ignores constants",
+      "Focuses on growth rate"
+    ],
+    "expected_keywords": ["Big-O"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Complexity Analysis"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-014",
+    "track": "DSA",
+    "topic": "Heap",
+    "subtopic": "Properties",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which are true for a max heap?",
+    "options": [
+      "Root has maximum value",
+      "Complete binary tree",
+      "Sorted structure",
+      "Parent ≥ children"
+    ],
+    "correct_answer": [
+      "Root has maximum value",
+      "Complete binary tree",
+      "Parent ≥ children"
+    ],
+    "expected_keywords": ["max heap"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Heap"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-015",
+    "track": "DSA",
+    "topic": "Sorting",
+    "subtopic": "Stability",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which sorting algorithms are stable?",
+    "options": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Quick Sort",
+      "Merge Sort"
+    ],
+    "correct_answer": [
+      "Bubble Sort",
+      "Insertion Sort",
+      "Merge Sort"
+    ],
+    "expected_keywords": ["stable sort"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Sorting"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-016",
+    "track": "DSA",
+    "topic": "Complexity",
+    "subtopic": "Cases",
+    "difficulty": "Easy",
+    "question_type": "MSQ",
+    "question": "Which are types of time complexity analysis?",
+    "options": [
+      "Best case",
+      "Worst case",
+      "Average case",
+      "Dynamic case"
+    ],
+    "correct_answer": [
+      "Best case",
+      "Worst case",
+      "Average case"
+    ],
+    "expected_keywords": ["cases"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Complexity"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-017",
+    "track": "DSA",
+    "topic": "Queue",
+    "subtopic": "Priority Queue",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which statements about priority queues are correct?",
+    "options": [
+      "Elements have priority",
+      "Implemented using heap",
+      "Follows FIFO strictly",
+      "Used in scheduling"
+    ],
+    "correct_answer": [
+      "Elements have priority",
+      "Implemented using heap",
+      "Used in scheduling"
+    ],
+    "expected_keywords": ["priority queue"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Queue"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-018",
+    "track": "DSA",
+    "topic": "Graphs",
+    "subtopic": "Graph Types",
+    "difficulty": "Easy",
+    "question_type": "MSQ",
+    "question": "Which are types of graphs?",
+    "options": [
+      "Directed graph",
+      "Undirected graph",
+      "Weighted graph",
+      "Linear graph"
+    ],
+    "correct_answer": [
+      "Directed graph",
+      "Undirected graph",
+      "Weighted graph"
+    ],
+    "expected_keywords": ["graph types"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Graphs"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-019",
+    "track": "DSA",
+    "topic": "Hashing",
+    "subtopic": "Collision Handling",
+    "difficulty": "Medium",
+    "question_type": "MSQ",
+    "question": "Which techniques handle collisions in hashing?",
+    "options": [
+      "Chaining",
+      "Linear probing",
+      "Binary search",
+      "Double hashing"
+    ],
+    "correct_answer": [
+      "Chaining",
+      "Linear probing",
+      "Double hashing"
+    ],
+    "expected_keywords": ["collision handling"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Hashing"],
+      "weight": 2,
+      "max_time_sec": 90
+    }
+  },
+  {
+    "id": "DSA-MSQ-020",
+    "track": "DSA",
+    "topic": "Trees",
+    "subtopic": "Balanced Tree",
+    "difficulty": "Hard",
+    "question_type": "MSQ",
+    "question": "Which statements are true for balanced binary trees?",
+    "options": [
+      "Height difference is minimal",
+      "Search is O(log n)",
+      "Always complete",
+      "Improves performance"
+    ],
+    "correct_answer": [
+      "Height difference is minimal",
+      "Search is O(log n)",
+      "Improves performance"
+    ],
+    "expected_keywords": ["balanced tree"],
+    "user_explanation_required": true,
+    "evaluation": {
+      "skill_dimension": ["Trees"],
+      "weight": 3,
+      "max_time_sec": 120
+    }
+  }
+]
